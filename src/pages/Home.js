@@ -15,7 +15,7 @@ function Home() {
                     <GitHubIcon />
                     <EmailIcon />   
                 </div>
-            </div>    
+            </div> 
             <div className ="skills">
                 <h1> Skills </h1>
                 <ol className = "list">
