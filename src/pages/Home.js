@@ -3,6 +3,13 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
 import "../styles/Home.css" 
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component" 
+import "react-vertical-timeline-component/style.min.css"
+import SchoolIcon from "@material-ui/icons/School"
+
 
 function Home() {
     return (
@@ -16,6 +23,24 @@ function Home() {
                     <EmailIcon />   
                 </div>
             </div> 
+
+            <div className="experience"> 
+            <VerticalTimeline lineColor="black">
+                <VerticalTimelineElement 
+                className="vertical-timeline-element--education"
+                date="2014-2021"
+                iconStyle={{background: "darkgrey", colo: "black"}}
+                icon={<SchoolIcon/>}>
+                <h3 className="vertical-timeline-element-title">
+                    University of Toronto Schools, Toronto Canada
+                </h3>
+                <p>
+            
+                </p>
+                </VerticalTimelineElement>
+            </VerticalTimeline>
+            </div>
+
             <div className ="skills">
                 <h1> Skills </h1>
                 <ol className = "list">
