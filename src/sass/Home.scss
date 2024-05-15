@@ -17,21 +17,24 @@
   text-align: center;
   background-color: hsl(0, 0%, 60%);
   color: black;
-}
-.about h2 {
-  font-family: "Arial" sans-serif;
-  font-size: 80px;
-  color: black;
-  height: 50px;
-}
-.about .prompt {
-  width: 40%;
-  font-size: 30px;
-}
-.about .prompt svg {
-  font-size: 60px;
-  margin: 5px;
-  color: whitesmoke;
+
+  h2 {
+    font-family: "Arial" sans-serif;
+    font-size: 80px;
+    color: black;
+    height: 50px;
+  }
+
+  .prompt {
+    width: 40%;
+    font-size: 30px;
+
+    svg {
+      font-size: 60px;
+      margin: 5px;
+      color: whitesmoke;
+    }
+  }
 }
 
 .skills {
@@ -45,37 +48,47 @@
   flex-direction: column;
   align-items: center;
   background-color: whitesmoke;
+
+  h1 {
+    color: black;
+  }
+
+  .list {
+    padding: 0;
+    list-style: none;
+    width: 60%;
+
+    span {
+      font-size: 20px;
+    }
+
+  }
+
 }
-.skills h1 {
-  color: black;
-}
-.skills .list {
-  padding: 0;
-  list-style: none;
-  width: 60%;
-}
-.skills .list span {
-  font-size: 20px;
-}
+
 
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
   }
+
   .about .prompt {
     margin-top: 10px;
     font-size: 20px;
     width: 80%;
   }
+
   .skills {
     text-align: center;
+
+    h2 {
+      font-size: 30px;
+    }
+
   }
-  .skills h2 {
-    font-size: 30px;
-  }
+
   .list {
     padding: 0;
   }
-}
 
-/*# sourceMappingURL=Home.css.map */
+}
