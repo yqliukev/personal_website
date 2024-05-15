@@ -7,21 +7,23 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 911px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: hsl(0, 0%, 60%);
+  background-color: #cccccc;
   color: black;
+  position: fixed;
 }
 
 .about h2 {
   font-family: "Arial" sans-serif;
-  font-size: 80px;
+  font-size: 4vw;
   color: black;
   height: 50px;
+  margin-bottom: 20px
 }
 
 .about .prompt {
@@ -38,9 +40,11 @@
   font-size: 35px;
   width: 100%;
   display: flex;
+  height: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .skills h1 {

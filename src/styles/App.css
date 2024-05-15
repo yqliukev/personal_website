@@ -1,8 +1,14 @@
 .App {
-    text-align: center;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    background-color: whitesmoke;
 }
 
 body {
     padding: 0;
     margin: 0;
 }
+
